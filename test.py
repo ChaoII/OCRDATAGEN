@@ -3,11 +3,11 @@ from PIL import Image
 
 if __name__ == '__main__':
     transforms = [
-        Smudge("./res/smu.png"),
-        AffineTransformation(30),
-        PerspectiveTransformation(10),
-        Saturation(),
-        GaussBlur(random.randint(1, 4)),
+        # Smudge("./res/smu.png"),
+        # AffineTransformation(30),
+        # PerspectiveTransformation(10),
+        # Saturation(),
+        # GaussBlur(random.randint(1, 4)),
         # GaussNoise()
     ]
 
